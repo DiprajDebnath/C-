@@ -1,2 +1,1 @@
 # C++
-object oriented programming
