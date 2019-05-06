@@ -36,7 +36,7 @@ main()
 		cin>>(ptr+i)->marks;
 	}
 	
-	MBubbleSort(ptr,size);
+	MBubbleSort(ptr,size);//function calling
 	
 	{
 		cout<<"\nRoll No\t"<<"Marks\t"<<"Name\n";
