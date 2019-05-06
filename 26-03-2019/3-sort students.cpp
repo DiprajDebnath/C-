@@ -1,5 +1,5 @@
 /*
-	Program to arrange n-students in assending order of marks
+	Program to arrange n-students in descending order of marks
 	using dynamic memory allocation.
 */
 #include<iostream>
@@ -66,7 +66,7 @@ void MBubbleSort(student *ptr,int n) //modified bubble sort
 		flag=1;
 		for(j=0;j<n-1-i;j++)
 		{
-			if(((ptr+j)->marks) > ((ptr+j+1)->marks))
+			if(((ptr+j)->marks) < ((ptr+j+1)->marks))
 			{
 				swap((ptr+j),(ptr+j+1));
 				flag=0;
