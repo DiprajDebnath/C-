@@ -1,3 +1,4 @@
+/*Count the number of characters in a word using a pointer to a string*/
 #include<iostream>
 using namespace std;
 main()
@@ -17,4 +18,3 @@ main()
   
     cout<<"string length :"<<count<<endl;
 }
-
