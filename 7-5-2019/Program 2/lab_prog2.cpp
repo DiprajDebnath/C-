@@ -1,3 +1,13 @@
+/*
+Write an interactive and menu driven program that will access the file and implement the following tasks.
+1. Determine the numbers of character in upper case
+2. Determine the numbers of character in lower case
+3. Determine the numbers of lines
+4. Determine the numbers of words
+5. Determine the numbers of characters
+6. Determine the numbers of spaces
+7. Determine the numbers of digits
+*/
 #include<iostream>
 #include<fstream>
 #include<cstdlib>
